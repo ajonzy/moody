@@ -1,0 +1,31 @@
+.navbar-wrapper {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+    .logo {
+        grid-column: 2
+    }
+
+    .user-info {
+        grid-column: 3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 130px;
+        min-width: 60%;
+        margin: 0px 10px;
+
+        h6 {
+            margin-right: 10px;
+        }
+
+        button {
+            @include generalButton();
+        }
+    }
+}
