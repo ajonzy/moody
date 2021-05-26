@@ -6,7 +6,7 @@ import { withRouter } from "react-router"
 import Navbar from "./resources/navbar"
 import Homepage from "./pages/homepage"
 import Auth from "./pages/login-signup"
-import Messenger from "./pages/messenger"
+import Messenger from "./pages/messengerWithHooks"
 
 class App extends Component {
   constructor() {
